@@ -9,6 +9,10 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.light-mask {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 /* hero section */
 .hero {
     background-image: url('./images/hero-img.jpg');
