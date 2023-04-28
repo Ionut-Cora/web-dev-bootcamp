@@ -23,3 +23,23 @@
 .instructors-section img {
     width: 150px;
 }
+
+/* accordion section */
+.accordion {
+    width: 60%;
+}
+
+.accordion .accordion-flush,
+.accordion .accordion-item {
+    --mdb-accordion-flush-btn-box-shadow: inset 0 -2px 0 #f3f3f3;
+    --mdb-accordion-flush-border-bottom: 2px solid #f3f3f3;
+}
+
+.accordion .accordion-button:not(.collapsed) {
+    color: #4f4f4f;
+    background-color: transparent;
+}
+
+.accordion .accordion-button:not(.collapsed)::after {
+    background-image: var(--mdb-accordion-btn-icon);
+}
