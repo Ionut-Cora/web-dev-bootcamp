@@ -4,3 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* hero section */
+.hero {
+    background-image: url('./images/hero-img.jpg');
+    height: 600px;
+}
