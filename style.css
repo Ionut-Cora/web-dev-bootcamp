@@ -44,3 +44,9 @@
 .accordion .accordion-button:not(.collapsed)::after {
     background-image: var(--mdb-accordion-btn-icon);
 }
+
+/* contact section */
+.contact-section {
+    background-image: url('./images/office-img.jpg');
+    height: 400px;
+}
