@@ -18,3 +18,8 @@
     background-image: url('./images/hero-img.jpg');
     height: 600px;
 }
+
+/* instructors section */
+.instructors-section img {
+    width: 150px;
+}
