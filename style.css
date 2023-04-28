@@ -50,3 +50,10 @@
     background-image: url('./images/office-img.jpg');
     height: 400px;
 }
+
+/* mobile */
+@media screen and (max-width: 992px) {
+    .accordion {
+        width: 90%;
+    }
+}
