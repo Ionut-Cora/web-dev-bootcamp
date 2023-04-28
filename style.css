@@ -20,7 +20,8 @@
 }
 
 /* instructors section */
-.instructors-section img {
+.instructors-section img,
+.carousel img {
     width: 150px;
 }
 
