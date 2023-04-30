@@ -15,6 +15,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
     </head>
     <body>
+
         <header>
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -26,16 +27,16 @@
                   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="./courses.html">Courses</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About</a>
+                        <a class="nav-link active" href="#">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="./contact.html">Contact</a>
                       </li>
                     </ul>
                     <form class="d-flex input-group w-auto">
@@ -47,13 +48,11 @@
             </nav>
 
             <!-- Hero section -->
-            <div class="hero p-5 text-center bg-image">
-                <div class="mask">
+            <div class="about-page-hero smaller-hero p-5 text-center bg-image">
+                <div class="medium-mask">
                     <div class="d-flex justify-content-center align-items-center h-100">
                         <div class="container text-white">
-                            <h1 class="mb-3">Welcome to WebDevBootcamp</h1>
-                            <p class="w-75 m-auto mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nostrum cupiditate quidem optio. Nisi corporis autem natus nulla quo explicabo, ex accusamus, minima rerum at velit assumenda esse, possimus perferendis!</p>
-                            <button type="button" class="btn btn-danger btn-lg">Check our courses</button>
+                            <h1 class="mb-3">About us</h1>
                         </div>
                     </div>
                 </div>
@@ -64,139 +63,16 @@
         <section class="py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <img src="./images/about-img.jpg" class="img-fluid rounded mb-5 mb-lg-0" alt="about" />
-                    </div>
                     <div class="col-lg-6 d-flex flex-column justify-content-center">
                         <h2>Learn web development with us</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id voluptates vitae nostrum repellat voluptas qui porro, illum, laborum deserunt repudiandae rem odio necessitatibus voluptatem dolorum ipsam, inventore corrupti possimus neque?</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic placeat eligendi similique a autem suscipit esse aliquid beatae maiores?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, odit corporis aliquam modi cumque reiciendis numquam eius ducimus asperiores obcaecati consequatur eos veritatis. Libero repudiandae quis blanditiis ipsum officiis expedita cum distinctio voluptates ipsa in necessitatibus ex tenetur architecto quam iusto sunt, consequatur nobis, ab itaque cupiditate repellendus voluptatem? Corrupti!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam distinctio facere nemo velit repellat quis tenetur magni magnam. Ad suscipit reiciendis eaque quam temporibus earum vero! Ut iure non magnam neque, quis consequatur optio quo! Earum possimus ullam dignissimos numquam.</p>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Courses section -->
-        <section class="bg-light">
-            <div class="light-mask py-5">
-                <div class="container">
-                    <h2 class="text-center text-capitalize mb-5">Our courses</h2>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4 d-flex justify-content-center">
-                            <div class="card mb-3">
-                                <img src="./images/development-img.jpg" class="card-img-top" alt="development"/>
-                                <div class="card-body">
-                                  <h5 class="card-title text-danger">Web development</h5>
-                                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus rem placeat quis facere at eaque sunt quo sint vitae saepe.</p> <!--lorem20-->
-                                  <button type="button" class="btn btn-danger">Enquire now</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 d-flex justify-content-center">
-                            <div class="card mb-3">
-                                <img src="./images/design-img.jpg" class="card-img-top" alt="design"/>
-                                <div class="card-body">
-                                  <h5 class="card-title text-danger">Web design</h5>
-                                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus rem placeat quis facere at eaque sunt quo sint vitae saepe.</p> <!--lorem20-->
-                                  <button type="button" class="btn btn-danger">Enquire now</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 d-flex justify-content-center">
-                            <div class="card mb-3">
-                                <img src="./images/ux-img.jpg" class="card-img-top" alt="UX"/>
-                                <div class="card-body">
-                                  <h5 class="card-title text-danger">UX/UI</h5>
-                                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus rem placeat quis facere at eaque sunt quo sint vitae saepe.</p> <!--lorem20-->
-                                  <button type="button" class="btn btn-danger">Enquire now</button>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-6 d-flex justify-content-center">
+                        <img src="./images/about-page-img.jpg" class="img-fluid rounded mt-5 mt-lg-0 w-75" alt="about" />
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Instructions section -->
-        <section class="instructors-section py-5">
-            <div class="container">
-                <h2 class="text-center text-capitalize mb-5">Our instructors</h2>
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="card text-center d-flex align-items-center mb-3">
-                            <img src="./images/instructor1.jpg" class="rounded-circle shadow-1-strong m-5" alt="development"/>
-                            <div class="card-body">
-                              <h5 class="card-title text-danger">John Moore</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima placeat commodi culpa labore odit illo? Perferendis repellendus voluptas sit distinctio sunt dolor quasi soluta accusantium!</p> <!--lorem25-->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="card text-center d-flex align-items-center mb-3">
-                            <img src="./images/instructor2.jpg" class="rounded-circle shadow-1-strong m-5" alt="development"/>
-                            <div class="card-body">
-                              <h5 class="card-title text-danger">Michael Rose</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima placeat commodi culpa labore odit illo? Perferendis repellendus voluptas sit distinctio sunt dolor quasi soluta accusantium!</p> <!--lorem25-->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="card text-center d-flex align-items-center mb-3">
-                            <img src="./images/instructor3.jpg" class="rounded-circle shadow-1-strong m-5" alt="development"/>
-                            <div class="card-body">
-                              <h5 class="card-title text-danger">William Flame</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima placeat commodi culpa labore odit illo? Perferendis repellendus voluptas sit distinctio sunt dolor quasi soluta accusantium!</p> <!--lorem25-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Accordion section -->
-        <section class="bg-light">
-            <div class="light-mask py-5">
-                <div class="accordion-section container">
-                    <h2 class="text-center mb-3">What you will learn</h2>
-    
-                    <div class="accordion accordion-flush m-auto" id="accordionFlushExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                Web development
-                            </button>
-                          </h2>
-                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-mdb-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat reprehenderit, possimus error quos, est mollitia hic adipisci sequi consequuntur excepturi praesentium aperiam quisquam vero repellat maiores dolor itaque tempora tenetur, iste cum molestias ad. Officia aspernatur quia voluptatem in facere? <!--lorem40-->
-                                </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                Web design
-                            </button>
-                          </h2>
-                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-mdb-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quasi non eius incidunt illum autem unde quis nemo laudantium perspiciatis sunt similique, mollitia omnis eos eligendi voluptate necessitatibus rem nam! Dicta quisquam dolore nihil aperiam, quidem sint, sed deleniti repellat, at mollitia culpa cum! Nesciunt aut officiis, nostrum quasi iure consequatur aliquam voluptatem fugit ipsam qui nobis dolor magnam nisi.<!--lorem60-->
-                                </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                UX/UI
-                            </button>
-                          </h2>
-                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-mdb-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minus ex, nobis non soluta laudantium odit sed, beatae eveniet tenetur temporibus ab? Perspiciatis, laudantium iusto repellendus culpa repellat illum dolor debitis quaerat? Explicabo, saepe officiis!<!--lorem35-->
-                                </div>
-                          </div>
-                        </div>
-                      </div>
                 </div>
             </div>
         </section>
@@ -561,6 +437,5 @@
         <script src="" async defer></script>
         <!-- MDB -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
-    </body>
     </body>
 </html>

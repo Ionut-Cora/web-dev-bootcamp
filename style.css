@@ -42,6 +42,10 @@
     background-image: url('./images/courses-hero-img.jpg');
 }
 
+.about-page-hero {
+    background-image: url('./images/about-hero-img.jpg');
+}
+
 /* instructors section */
 .instructors-section img,
 .carousel img {
