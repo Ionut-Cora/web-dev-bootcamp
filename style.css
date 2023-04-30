@@ -13,6 +13,15 @@
     background-color: rgba(0, 0, 0, 0.05);
 }
 
+.medium-mask {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
 /* navbar */
 .navbar .input-group>.form-control:focus {
     border-color: #dc4c64;
@@ -23,6 +32,14 @@
 .hero {
     background-image: url('./images/hero-img.jpg');
     height: 600px;
+}
+
+.smaller-hero {
+    height: 500px;
+}
+
+.courses-page-hero {
+    background-image: url('./images/courses-hero-img.jpg');
 }
 
 /* instructors section */
