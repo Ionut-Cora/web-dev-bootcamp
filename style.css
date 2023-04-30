@@ -46,6 +46,10 @@
     background-image: url('./images/about-hero-img.jpg');
 }
 
+.contact-page-hero {
+    background-image: url('./images/contact-hero-img.jpg');
+}
+
 /* instructors section */
 .instructors-section img,
 .carousel img {
