@@ -25,6 +25,7 @@
 /* navbar */
 .navbar {
     z-index: 100;
+    margin-top: -3rem;
 }
 
 .navbar .input-group>.form-control:focus {
