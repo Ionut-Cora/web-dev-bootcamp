@@ -94,6 +94,10 @@
     height: 400px;
 }
 
+.contact-form {
+    width: 50%;
+}
+
 /* mobile */
 @media screen and (max-width: 992px) {
     .accordion {
@@ -108,6 +112,10 @@
 
     .hero-title {
         font-size: 3rem;
+    }
+
+    .contact-form {
+        width: 90%;
     }
 }
 
