@@ -50,6 +50,14 @@
     background-image: url('./images/contact-hero-img.jpg');
 }
 
+.home-hero-title {
+    font-size: 4rem;
+}
+
+.hero-title {
+    font-size: 5rem;
+}
+
 /* instructors section */
 .instructors-section img,
 .carousel img {
@@ -86,5 +94,21 @@
 @media screen and (max-width: 992px) {
     .accordion {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .home-hero-title {
+        font-size: 2.5rem;
     }
 }
