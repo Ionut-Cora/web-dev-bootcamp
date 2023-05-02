@@ -54,6 +54,10 @@
     font-size: 4rem;
 }
 
+.home-hero-title span {
+    color: #dc4c64;
+}
+
 .hero-title {
     font-size: 5rem;
 }
