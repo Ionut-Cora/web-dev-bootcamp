@@ -103,6 +103,28 @@
     width: 50%;
 }
 
+/* contact page */
+
+.contact-form .form-outline .form-control:focus~.form-label {
+    color: #dc4c64;
+}
+
+.contact-form .form-outline .form-control:focus~.form-notch .form-notch-leading {
+    border-color: #dc4c64;
+    box-shadow: -1px 0 0 0 #dc4c64, 0 1px 0 0 #dc4c64, 0 -1px 0 0 #dc4c64;
+}
+
+.contact-form .form-outline .form-control:focus~.form-notch .form-notch-middle {
+    border-color: #dc4c64;
+    box-shadow: 0 1px 0 0 #dc4c64;
+    border-top: 1px solid transparent;
+}
+
+.contact-form .form-outline .form-control:focus~.form-notch .form-notch-trailing {
+    border-color: #dc4c64;
+    box-shadow: 1px 0 0 0 #dc4c64, 0 -1px 0 0 #dc4c64, 0 1px 0 0 #dc4c64;
+}
+
 /* mobile */
 @media screen and (max-width: 992px) {
     .accordion {
